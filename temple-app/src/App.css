@@ -1,0 +1,151 @@
+/* CONTACT */
+      body{
+        background-image: url("../images/cork-board/cork-board.png");
+        background-repeat: repeat;
+        background-size: auto;
+        background-attachment: scroll;
+      }
+
+      .navbar-expand-lg {
+        height: 70px;
+        position: sticky;
+        top: 0px;
+        bottom: 0px;
+        
+      }
+
+      .jumbotron {
+        background-image: url("../images/buddha-header.jpg");
+        background-repeat: inherit;
+        background-size: auto 100%;
+        border-radius: 0;
+        padding-top: 135px;
+        padding-bottom: 135px;
+      }
+
+      .content {
+        border: black;
+        border-style: hidden;
+
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+        width: 1250px;
+        background-color: rgba(252, 233, 233, 0.897);
+      }
+
+      .info {
+        text-align: center;
+        float: center;
+      }
+
+      #name {
+        width: 100%;
+        padding:2%;
+        border: solid;
+        border-color: rgb(223, 221, 221);
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-size: unset;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #email {
+        width: 100%;
+        padding:2%;
+        border: solid;
+        border-color: rgb(223, 221, 221);
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-size: unset;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #message {
+        width: 100%;
+        padding:2%;
+        border: solid;
+        border-color: rgb(223, 221, 221);
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-size: unset;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      input[type=submit]{
+        background-color: #726b66;
+        color: white;
+        padding: 10px 40px;
+        border: none;
+        border-radius: 0px;
+      } 
+
+      .footer {
+        background-color: rgb(86, 86, 86);
+        position: static;
+        z-index: 2;
+        top: -60px;
+        left: 0;
+        padding-top: 25px;
+        padding-bottom: 10px;
+
+        color: white;
+        text-align: center;
+      }
+
+/* HOMEPAGE */
+      body{
+        background-image: url("../images/cork-board/cork-board.png");
+        background-repeat: repeat;
+        background-size: auto;
+        background-attachment: scroll;
+      }
+
+      .navbar-expand-lg {
+        height: 70px;
+        position: sticky;
+        top: 0px;
+        bottom: 0px;
+        
+      }
+
+      .jumbotron {
+        background-image: url("../images/buddha-header.jpg");
+        background-repeat: inherit;
+        background-size: auto 100%;
+        border-radius: 0;
+        padding-top: 135px;
+        padding-bottom: 135px;
+      }
+
+      .content {
+        border: black;
+        border-style: hidden;
+
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        height: auto;
+        width: 1250px;
+        background-color: rgba(252, 233, 233, 0.897);
+      }
+
+      .footer {
+        background-color: rgb(86, 86, 86);
+        position: static;
+        z-index: 2;
+        top: -60px;
+        left: 0;
+        padding-top: 25px;
+        padding-bottom: 10px;
+
+        color: white;
+        text-align: center;
+      }
