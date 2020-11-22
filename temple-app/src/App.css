@@ -1,3 +1,39 @@
+.carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.5s ease-in-out left;
+  -moz-transition: 0.5s ease-in-out left;
+  -o-transition: 0.5s ease-in-out left;
+  transition: 0.5s ease-in-out left;
+}
+
+/*BIOGRAPHY */
+#bioheader {
+  background-image: url('images/biography.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position-x: center; */
+}
+
+/*POEMS*/
+#poemsheader {
+  background-image: url('images/lotus.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+#poem {
+  text-align: center;
+  font-family: cursive;
+}
+
 /* CONTACT */
       /* body{
         background-image: url("../images/cork-board/cork-board.png");
