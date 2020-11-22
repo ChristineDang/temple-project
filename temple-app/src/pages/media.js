@@ -5,7 +5,14 @@ function media(){
     return (
         <>
 
-        <div>hello world</div>
+        <div className="header">
+            <div  id="videoheader">
+                <h1 id="headertext">VIDEOS</h1>
+            </div>
+
+        </div>
+        <br></br>
+
         </>
     )
     }

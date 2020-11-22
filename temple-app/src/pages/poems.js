@@ -7,11 +7,11 @@ function poems(){
             <div className="header">
                 <div id="poemsheader"></div>
             </div>
-            <div className="container">
+            <div className="container" id="poemtitle">
                 <div className="row">
-                    <div className="col-md 12">
+                    <div className="col-md-12">
 
-                        <h1>Poem of the Month:</h1>
+                        <h1>EXCERPT:</h1>
                         <br></br>
 
                     <p id="poem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sapien lacus, tristique vel tempus id, laoreet vitae nibh. Vivamus lorem libero, imperdiet et lacus vel, suscipit euismod leo. Mauris vulputate finibus commodo. Quisque at justo non ligula aliquam tristique. Suspendisse sagittis rhoncus vehicula. Nullam sit amet mi interdum, laoreet dui sit amet, fermentum nibh. Vivamus eget quam non elit aliquam ornare nec rhoncus eros. Aliquam erat volutpat. Vivamus quis augue nisl. Ut ultrices nisl at felis tempus pellentesque. Sed id massa sit amet erat consequat rutrum. Morbi tempor odio eu finibus luctus.
@@ -27,6 +27,20 @@ function poems(){
                     </div>
                 </div>
             </div>
+
+            <h1 id="booktitle">POEMS:</h1>
+  
+            <div className="row">
+                        <div className="col-md-12">
+                            <div id="book"></div>
+                        </div>
+            </div>
+
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+          
         </>
     )
     }

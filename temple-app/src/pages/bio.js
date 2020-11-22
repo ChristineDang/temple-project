@@ -7,6 +7,7 @@ return (
     <div className="header">
         <div  id="bioheader"></div>
     </div>
+    <br></br>
     <div className="container">
         <div className="row">
             <div className="col-md 12">
@@ -24,6 +25,7 @@ return (
             </div>
         </div>
     </div>
+    <br></br>
     </>
 )
 }
