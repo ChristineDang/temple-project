@@ -97,7 +97,43 @@
 
 
 
+/*MEDIA*/
 
+#videos {
+  min-width: 450px;
+  min-height: 200px;
+  margin: 10%;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(255, 0, 0);
+  padding: 20px, 35px;
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  width: max-content;
+  margin: 10%;
+  position: relative;
+  font-weight: bolder;
+  left: 50%;
+  box-shadow: 4px 4px #88888839;
+}
+
+#youtube {
+  border: none;
+  background-color: rgb(255, 0, 0);
+  padding: 20px, 35px;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  width: max-content;
+  margin: 10%;
+  position: center;
+  margin-left: 30%;
+  box-shadow: 4px 4px #88888839;
+}
 
 /* CONTACT */
       /* body{
