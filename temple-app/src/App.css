@@ -1,10 +1,87 @@
-.carousel-inner > .item {
+/* .carousel-inner > .item {
   position: relative;
-  display: none;
-  -webkit-transition: 0.5s ease-in-out left;
-  -moz-transition: 0.5s ease-in-out left;
-  -o-transition: 0.5s ease-in-out left;
-  transition: 0.5s ease-in-out left;
+  display: block;
+  transition: 0.1s ease-in-out left;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  margin: auto;
+  width: 732px;
+} */
+
+/* .carousel-control-prev { visibility: hidden; }
+.carousel-control-next { visibility: hidden; } */
+
+.arrowDown {
+  /* border: solid rgba(0, 0, 0, 0.521);
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); */
+  width: 50%;
+  transition: transform 1s;
+  padding: 6%;
+  margin: auto;
+}
+
+.arrowDown:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.homepageBkgrnd {
+  background-image: url('images/916549.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#parting {
+  padding: 30%;
+}
+
+#scndRow {
+  background-color: rgba(255, 255, 255, 0.878);
+  padding-top: 10%;
+  padding-bottom: 3%;
+  align-items: center;
+  align-content: center;
+}
+
+#thrdRow {
+  background-color: rgba(255, 255, 255, 0.878);
+  padding-bottom: 10%;
+}
+
+#poem {
+  background-color: rgba(255, 255, 255, 0.878);
+  padding-bottom: 10%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+#text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:x-large;
+  font-weight: 500;
+  font-stretch:extra-expanded;
+  text-align: center;
+}
+
+#parting2 {
+  padding: 20%;
+}
+
+#homepageBtns {
+  width: 300px;
+  height: 150px;
+  align-items: center;
+  font-size:x-large;
+  font-weight: 500;
 }
 
 /*BIOGRAPHY */
@@ -20,7 +97,7 @@
 
 /*POEMS*/
 #poemsheader {
-  background-image: url('images/lotus.jpg');
+  background-image: src('../images/lotus.jpg');
   min-height: 500px;
   background-attachment: fixed;
   /* background-position: center; */
@@ -97,156 +174,115 @@
 
 
 
+/*MEDIA*/
 
+#videos {
+  min-width: 450px;
+  min-height: 200px;
+  margin: 10%;
+}
 
-/* CONTACT */
-      /* body{
-        background-image: url("../images/cork-board/cork-board.png");
-        background-repeat: repeat;
-        background-size: auto;
-        background-attachment: scroll;
-      }
+/* .btn {
+  border: none;
+  background-color: rgb(255, 0, 0);
+  padding: 20px, 35px;
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  width: max-content;
+  margin: 10%;
+  position: relative;
+  font-weight: bolder;
+  left: 50%;
+  box-shadow: 4px 4px #88888839;
+} */
 
-      .navbar-expand-lg {
-        height: 70px;
-        position: sticky;
-        top: 0px;
-        bottom: 0px;
-        
-      }
+#youtube {
+  border: none;
+  background-color: rgb(255, 0, 0);
+  padding: 20px, 35px;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  width: max-content;
+  margin: 10%;
+  position: center;
+  margin-left: 30%;
+  box-shadow: 4px 4px #88888839;
+}
 
-      .jumbotron {
-        background-image: url("../images/buddha-header.jpg");
-        background-repeat: inherit;
-        background-size: auto 100%;
-        border-radius: 0;
-        padding-top: 135px;
-        padding-bottom: 135px;
-      }
+      /* GALLERY PAGE */
 
-      .content {
-        border: black;
-        border-style: hidden;
-
-        font-size: 20px;
-        text-align: center;
-        margin: auto;
-        height: auto;
-        width: 1250px;
-        background-color: rgba(252, 233, 233, 0.897);
-      }
-
-      .info {
-        text-align: center;
-        float: center;
-      }
-
-      #name {
+      #gallery {
         width: 100%;
-        padding:2%;
-        border: solid;
-        border-color: rgb(223, 221, 221);
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-        font-size: unset;
-        font-family: Arial, Helvetica, sans-serif;
+        transition: transform 1.5s;
       }
 
-      #email {
+      #gallery:hover {
+        -ms-transform: scale(1.015); /* IE 9 */
+        -webkit-transform: scale(1.015); /* Safari 3-8 */
+        transform: scale(1.015); 
+      }
+
+      .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        /* max-width: 25%; */
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
         width: 100%;
-        padding:2%;
-        border: solid;
-        border-color: rgb(223, 221, 221);
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-        font-size: unset;
-        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
       }
 
-      #message {
-        width: 100%;
-        padding:2%;
-        border: solid;
-        border-color: rgb(223, 221, 221);
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-        font-size: unset;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      input[type=submit]{
-        background-color: #726b66;
-        color: white;
-        padding: 10px 40px;
-        border: none;
-        border-radius: 0px;
-      } 
-
-      .footer {
-        background-color: rgb(86, 86, 86);
-        position: static;
-        z-index: 2;
-        top: -60px;
-        left: 0;
-        padding-top: 25px;
-        padding-bottom: 10px;
-
-        color: white;
+      #galleryTitle {
+        padding-top: 15%;
+        font-size:100px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
-      } */
-
-/* HOMEPAGE */
-      /* body{
-        background-image: url("../images/cork-board/cork-board.png");
-        background-repeat: repeat;
-        background-size: auto;
-        background-attachment: scroll;
+        text-decoration: overline;
       }
 
-      .navbar-expand-lg {
-        height: 70px;
-        position: sticky;
-        top: 0px;
-        bottom: 0px;
-        
-      }
-
-      .jumbotron {
-        background-image: url("../images/buddha-header.jpg");
-        background-repeat: inherit;
-        background-size: auto 100%;
-        border-radius: 0;
-        padding-top: 135px;
-        padding-bottom: 135px;
-      }
-
-      .content {
-        border: black;
-        border-style: hidden;
-
-        font-size: 20px;
+      #galleryText {
         text-align: center;
-        margin: auto;
-        height: auto;
-        width: 1250px;
-        background-color: rgba(252, 233, 233, 0.897);
+        font-size: larger;
+        padding-bottom: 10%;
       }
 
-      .footer {
-        background-color: rgb(86, 86, 86);
-        position: static;
-        z-index: 2;
-        top: -60px;
-        left: 0;
-        padding-top: 25px;
-        padding-bottom: 10px;
-
-        color: white;
-        text-align: center;
-      } */
+      .galleryBkgrnd {
+        background-image: url('../src/images/buddhaLight2.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }

@@ -1,13 +1,16 @@
 import React from 'react';
 import { Carousel } from "react-bootstrap";
 import "../App.css";
+// import { Nav } from '../components/nav/index.js';
 
 
 function home() {
+
+    
     return (
         <>
-
-        <Carousel>
+    {/* <Nav></Nav> */}
+        {/* <Carousel>
             <Carousel.Item>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
@@ -17,13 +20,13 @@ function home() {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <img className="d-block w-100" src={require("../images/Dalailama.jpg")} alt="First slide" />
+                    <img className="d-block w-100" src={require("../images/buddhaLight.jpg")} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                    <img className="d-block w-100" src={require("../images/hands.jpg")} alt="Second slide" />
+                    <img className="d-block w-100" src={require("../images/TempleAus.jpg")} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                    <img className="d-block w-100" src={require("../images/outside.jpg")} alt="Third slide" />
+                    <img className="d-block w-100" src={require("../images/TempleAusMountain.jpg")} alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -36,32 +39,114 @@ function home() {
                 </a>
             </div>
             </Carousel.Item>
-        </Carousel>
+        </Carousel> */}
 
-        <div className="container">
-            <div className="row">
-                <div className="col-md-12">
+        <div className='homepageBkgrnd'>
+            <img id="homepageBkgrnd" />
+
+
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12" id="parting"></div>
+                </div>
+
+                <div className="row">
+                    {/* <div className="col-md-3"></div>
+                    <div className="col-md-3"></div>
+                    <div className="col-md-3"><div className="arrowDown"></div></div>
+                    <div className="col-md-3"></div> */}
+
+                    <a className="arrowDown" href="#bio">
+                        <img src={require("../images/arrowDown.png")} />
+                    </a>
+
+                </div>
+                <div  id="bio"></div>
+                <div className="row" id="scndRow">
+
+
+                    <div className="col-md-6">
+                        <img className="minhhieu" src={require("../images/minhhieu.png")} />
+                    </div>
+
+                    <div className="col-md-6" id="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sapien lacus, tristique vel tempus id, 
+                    laoreet vitae nibh. Vivamus lorem libero, imperdiet et lacus vel, suscipit euismod leo. 
+                    Mauris vulputate finibus commodo. Quisque at justo non ligula aliquam tristique. 
+                    Suspendisse sagittis rhoncus vehicula. Nullam sit amet mi interdum, laoreet dui sit amet, fermentum nibh. 
+                    Vivamus eget quam non elit aliquam ornare nec rhoncus eros. Aliquam erat volutpat. Vivamus quis augue nisl. 
+                    Ut ultrices nisl at felis tempus pellentesque. 
+                    </div>
+                </div>
+
+                <div className="row" id="thrdRow">
+                    <div className="col-md-12" id="text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Phasellus sapien lacus, tristique vel tempus id, laoreet vitae nibh. Vivamus lorem libero, imperdiet et lacus vel, suscipit euismod leo. 
+                    Mauris vulputate finibus commodo. Quisque at justo non ligula aliquam tristique. Suspendisse sagittis rhoncus vehicula. 
+                    Nullam sit amet mi interdum, laoreet dui sit amet, fermentum nibh. 
+                    Vivamus eget quam non elit aliquam ornare nec rhoncus eros. 
+                    Aliquam erat volutpat. Vivamus quis augue nisl. 
+                    Ut ultrices nisl at felis tempus pellentesque. 
+                    Sed id massa sit amet erat consequat rutrum. Morbi tempor odio eu finibus luctus.
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div className="container">
+                <div className="row" id="parting2"></div>
+
+                <div className="row" id="poem">
+                    <div className="col-md-12" id="text">
+                    <h1>TẠ  TỪ</h1>
                     <br></br>
+                    Mai Xa Rồi Sao…! <br></br>
+                    Mình về đâu hỡi bạn,<br></br>
+                    Không ve kêu mà xao xuyến trong hồn<br></br>
+                    Phượng vẫn rơi, rơi từng cánh mênh mang ,<br></br>
+                    Trong ký ức ngập tràn màu kỷ niệm..<br></br>
                     <br></br>
+                    Mai xa rồi sao… bốn mùa Thu mây tím<br></br>
+                    Mình vô tư ôm cặp mĩm môi cười,<br></br>
+                    Mặc dòng đời đuổi trôi về vô định<br></br>
+                    Giờ bàng hoàng thời gian ngỡ ngừng trôi.<br></br>
+                    <br></br>
+                    Mai xa rồi sao…suốt đời là chủ nhật.<br></br>
+                    Cổng trường bơ vơ hình bóng cũ đâu rồi<br></br>
+                    Hành lang vắng lạnh lùng mong nhịp bước,<br></br>
+                    Bàn ghế buồn, khẽ gọi..cố nhân ơi!<br></br>
+                    <br></br>
+                    Mai xa rồi sao… Thầy không còn trò cũ,<br></br>
+                    Màu bảng xanh phấn trắng kẻ âm thầm.<br></br>
+                    Bụi nhớ thương rơi từng trang sách nhỏ<br></br>
+                    Lệ nhạt nhòa bay theo gió xa xăm…<br></br>
+                    <br></br>
+                    Mai xa rồi sao..!<br></br>
+                    Ừ thật buồn bạn nhỉ ?<br></br>
+                    Nói gì đây ngôn ngữ hóa dư thừa,<br></br>
+                    Phút giây nầy ước gì mình tan biến.<br></br>
+                    Để ngàn đời thôi hai tiếng - tiễn đưa.<br></br>
+                    <br></br>
+                    Nhưng Bạn thân ơi!<br></br>
+                    Tạm chia tay thôi..trong một trường một lớp,<br></br>
+                    Tạm cách xa thôi…trên một ghế một bàn<br></br>
+                    Cùng lý tưởng dẫu dòng đời tan hợp..<br></br>
+                    Phương trời nào ta cũng chẳng ly tan . !!<br></br>
+                        Viết cho ngày từ giã mái trường Phật học Vạn Hạnh,  Sài gòn đông 92.  Nguyệt Tử Khách
+                    </div>
                 </div>
             </div>
 
-            <div className="row">
 
-                <div className="col-md-6">
-                    <img className="minhhieu" src={require("../images/minhhieu.png")} />
-                </div>
+            <div className="container">
+                <div className="row" id="parting2"></div>
 
-                <div className="col-md-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sapien lacus, tristique vel tempus id, laoreet vitae nibh. Vivamus lorem libero, imperdiet et lacus vel, suscipit euismod leo. Mauris vulputate finibus commodo. Quisque at justo non ligula aliquam tristique. Suspendisse sagittis rhoncus vehicula. Nullam sit amet mi interdum, laoreet dui sit amet, fermentum nibh. Vivamus eget quam non elit aliquam ornare nec rhoncus eros. Aliquam erat volutpat. Vivamus quis augue nisl. Ut ultrices nisl at felis tempus pellentesque. Sed id massa sit amet erat consequat rutrum. Morbi tempor odio eu finibus luctus.
-
-                Vivamus posuere purus orci, sed elementum metus aliquet a. Curabitur lacinia imperdiet tincidunt. Morbi non justo dapibus neque scelerisque ullamcorper vitae at erat. Maecenas vitae luctus urna, a dapibus libero. Nunc sit amet pellentesque tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse consequat id sapien sit amet accumsan.
-
-                Maecenas velit neque, aliquam sed blandit sit amet, volutpat id lectus. Aenean vitae sem magna. Etiam tincidunt, felis eget aliquet venenatis, velit metus convallis augue, id placerat ex ante non orci. Pellentesque vitae enim sodales, elementum dolor non, blandit mi. Fusce luctus ac nulla eget aliquam. Sed vitae accumsan quam, vitae rutrum eros. Donec mauris nunc, lobortis a porta sit amet, elementum et ipsum. Proin sit amet blandit arcu, ut dignissim ligula.
-
-                Quisque et auctor sem. Nulla facilisi. Praesent imperdiet erat metus, et interdum urna congue sed. Mauris scelerisque metus et mi consequat, ac convallis ligula egestas. Nunc eu ultrices lacus. Fusce volutpat a risus vitae euismod. Aliquam pellentesque, sem nec convallis euismod, neque risus dapibus tortor, vel tincidunt lacus lectus at magna. Suspendisse vestibulum venenatis felis eget fermentum.
-
-                Maecenas ac risus sit amet est egestas dictum. Donec scelerisque interdum ligula, eget blandit dolor tincidunt sit amet. Ut sed magna gravida, ultricies tellus non, egestas purus. Vivamus auctor ligula eget faucibus gravida. Phasellus lobortis, eros eget facilisis bibendum, dolor augue dictum ante, sed vestibulum magna ipsum eu nunc. Duis pretium, elit in condimentum blandit, lacus dui venenatis urna, et lacinia purus nisi eu lacus. Integer id sapien ante.
+                <div className="row" id='scndRow'>
+                    <div className="col-md-4"><button type="button" className="btn btn-dark" id='homepageBtns'>Media</button></div>
+                    <div className="col-md-4"><button type="button" className="btn btn-dark" id='homepageBtns'>Photos</button></div>
+                    <div className="col-md-4"><button type="button" className="btn btn-dark" id='homepageBtns'>Poems</button></div>
                 </div>
             </div>
         </div>
