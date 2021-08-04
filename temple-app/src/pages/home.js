@@ -1,45 +1,20 @@
 import React from 'react';
 import { Carousel } from "react-bootstrap";
 import "../App.css";
+import { Button } from 'react-bootstrap';
 // import { Nav } from '../components/nav/index.js';
 
 
 function home() {
 
+    // var button = document.createElement("button");
     
+    // button.addEventListener("click", function(){
+    //     alert("button pressed!");
+    // });
+
     return (
         <>
-    {/* <Nav></Nav> */}
-        {/* <Carousel>
-            <Carousel.Item>
-            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                <ol className="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1" className="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2" className="active"></li>
-                </ol>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                    <img className="d-block w-100" src={require("../images/buddhaLight.jpg")} alt="First slide" />
-                    </div>
-                    <div className="carousel-item">
-                    <img className="d-block w-100" src={require("../images/TempleAus.jpg")} alt="Second slide" />
-                    </div>
-                    <div className="carousel-item">
-                    <img className="d-block w-100" src={require("../images/TempleAusMountain.jpg")} alt="Third slide" />
-                    </div>
-                </div>
-                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
-            </Carousel.Item>
-        </Carousel> */}
 
         <div className='homepageBkgrnd'>
             <img id="homepageBkgrnd" />
@@ -95,6 +70,8 @@ function home() {
 
             </div>
 
+{/* POEM SECTION */}
+
             <div className="container">
                 <div className="row" id="parting2"></div>
 
@@ -139,14 +116,45 @@ function home() {
                 </div>
             </div>
 
+{/* LOCATIONS SECTION */}
+
+            <div className="container">
+                <div className="row" id="parting2"></div>
+
+                <div className="row" id="poem">
+                    <div className="col-md-12" id="text">
+                        <h1 id="textL">LOCATIONS:</h1>
+                            <br></br>
+                            Bodhinyana Buddhist Monastery<br></br>
+                            216 Kingsbury Dr, Serpentine WA 6125, Australia<br></br>
+                            <br></br>
+
+                            Fo Guang Shan Nan Tien Temple<br></br>
+                            180 Berkeley Rd, Berkeley NSW 2506, Australia<br></br>
+                            <br></br>
+
+                            Nan Hai Pu Tuo Temple of Australia<br></br>
+                            27 Cactus Canyon Rd, Sellicks Hill SA 5174, Australia<br></br>
+                            <br></br>
+
+                            Pháp Hoa Temple<br></br>
+                            20 Butler Ave, Pennington SA 5013, Australia<br></br>
+                            <br></br>
+
+                    </div>
+                </div>
+            </div>
+
+{/* ROUTING BUTTONS */}
 
             <div className="container">
                 <div className="row" id="parting2"></div>
 
                 <div className="row" id='scndRow'>
-                    <div className="col-md-4"><button type="button" className="btn btn-dark" id='homepageBtns'>Media</button></div>
-                    <div className="col-md-4"><button type="button" className="btn btn-dark" id='homepageBtns'>Photos</button></div>
-                    <div className="col-md-4"><button type="button" className="btn btn-dark" id='homepageBtns'>Poems</button></div>
+                    {/* <div className="col-md-4"><input type="button" id='homepageBtns' onclick="location.href='./media.js';" value="go to media" />Media</div> */}
+                    <div className="col-md-4"><Button type="button" className="btn btn-dark" id='homepageBtns' href='/media'>Media</Button></div>
+                    <div className="col-md-4"><Button type="button" className="btn btn-dark" id='homepageBtns' href='/photos'>Photos</Button></div>
+                    <div className="col-md-4"><Button type="button" className="btn btn-dark" id='homepageBtns' href='/poems'>Poems</Button></div>
                 </div>
             </div>
         </div>

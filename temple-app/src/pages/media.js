@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+// import ReactDom from 'react-dom';
 
 
 
@@ -8,13 +8,21 @@ function media(){
     return (
         <>
 
-        <div className="header">
-            <div  id="videoheader">
-                <h1 id="headertext">VIDEOS</h1>
+        <div className="galleryBkgrnd">
+            <div  id="header">
+                <h1 id="galleryTitle">Audio & Video</h1>
+                <p id="galleryText">A collection of audio and video recordings from HT Thich Minh Hieu</p>
             </div>
 
         </div>
         <br></br>
+
+        <div className="row">
+            <div className="col-md-12">
+                <br></br>
+                {/* <p id="description">click here for more audio and videos</p> */}
+            </div>
+        </div>
 
         <div className="row">
             <div className="col-md-12">
@@ -23,8 +31,9 @@ function media(){
                 }}>YouTube Channel
             </button>
             </div>
-
         </div>
+
+        <div><br></br></div>
 
             <div className="row">
                 <div className="col-md-4">
@@ -32,10 +41,10 @@ function media(){
                     height="315" 
                     src="https://www.youtube.com/embed/2SlLT5STWIA" 
                     title="YouTube video player" 
-                    frameborder="0"
+                    frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     id="videos"
-                    allowfullscreen>
+                    allowFullScreen>
                 </iframe>
                 </div>
 
@@ -44,10 +53,10 @@ function media(){
                     height="315" 
                     src="https://www.youtube.com/embed/g3BIfKGxj2k" 
                     title="YouTube video player" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     id="videos"
-                    allowfullscreen>
+                    allowFullScreen>
                 </iframe>
                 </div>
 
@@ -56,41 +65,48 @@ function media(){
                     height="315" 
                     src="https://www.youtube.com/embed/37Wi-69z_G8" 
                     title="YouTube video player" 
-                    frameborder="0" 
+                    frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     id="videos"
-                    allowfullscreen>
+                    allowFullScreen>
                 </iframe>
                 </div>
-                
             </div>
+
+            <br></br>
 
             <div className="row">
                 <div className="col-md-4">
-                    <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-                        frameborder='0'
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        title='video'
-                        id="videos"/>
+                <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/pjBFZ8-EdYU" 
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen>
+                </iframe>
                 </div>
 
                 <div className="col-md-4">
-                    <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-                        frameborder='0'
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        title='video'
-                        id="videos"/>
-                </div>
+                <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/VESF5vWmEYc" 
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen>
+                </iframe>
+                </div>  
 
                 <div className="col-md-4">
-                    <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'
-                        frameborder='0'
-                        allow='autoplay; encrypted-media'
-                        allowfullscreen
-                        title='video'
-                        id="videos"/>
+                <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/wthlPd6ZaUA" 
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowFullScreen>
+                </iframe>
                 </div>
                 
             </div>

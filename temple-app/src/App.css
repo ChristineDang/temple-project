@@ -1,17 +1,3 @@
-/* .carousel-inner > .item {
-  position: relative;
-  display: block;
-  transition: 0.1s ease-in-out left;
-  height: auto;
-  max-width: 100%;
-  line-height: 1;
-  margin: auto;
-  width: 732px;
-} */
-
-/* .carousel-control-prev { visibility: hidden; }
-.carousel-control-next { visibility: hidden; } */
-
 .arrowDown {
   /* border: solid rgba(0, 0, 0, 0.521);
   border-width: 0 5px 5px 0;
@@ -72,6 +58,14 @@
   text-align: center;
 }
 
+#textL {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 200%;
+  font-weight: bold;
+  font-stretch:extra-expanded;
+  text-align: center;
+}
+
 #parting2 {
   padding: 20%;
 }
@@ -81,7 +75,8 @@
   height: 150px;
   align-items: center;
   font-size:x-large;
-  font-weight: 500;
+  padding-top: 14%;
+  font-weight: 800;
 }
 
 /*BIOGRAPHY */
@@ -130,7 +125,7 @@
 }
 
 
-/*EVENTSS */
+/*EVENTS */
 
 #events {
   text-align: center;
@@ -151,7 +146,7 @@
 /* MEDIA */
 
 #videoheader {
-  background-image: url('images/blurleaves.jpg');
+  background-image: url('images/buddhaLight2.jpg');
   min-height: 500px;
   background-attachment: fixed;
   /* background-position: center; */
@@ -179,7 +174,8 @@
 #videos {
   min-width: 450px;
   min-height: 200px;
-  margin: 10%;
+  /* margin: 20%; */
+  padding-top: 5%;
 }
 
 /* .btn {
@@ -206,11 +202,21 @@
   font-weight: bolder;
   color: white;
   width: max-content;
-  margin: 10%;
-  position: center;
-  margin-left: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
   box-shadow: 4px 4px #88888839;
 }
+
+#description {
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+
 
       /* GALLERY PAGE */
 

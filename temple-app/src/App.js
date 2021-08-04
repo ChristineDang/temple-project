@@ -8,6 +8,7 @@ import events from "./pages/events";
 import media from "./pages/media";
 import photos from "./pages/photos";
 import poems from "./pages/poems";
+// import locations from "./pages/locations";
 // import Nav from "./components/nav/";
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/media" component={media} />
           <Route exact path="/photos" component={photos} />
           <Route exact path="/poems" component={poems} />
+          {/* <Route exact path="/locations" component={locations} /> */}
         </Switch>
 
       </div>
