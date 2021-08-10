@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/temple-project/static/css/main.38f6fadd.chunk.css",
+    "main.js": "/temple-project/static/js/main.531150ca.chunk.js",
+    "main.js.map": "/temple-project/static/js/main.531150ca.chunk.js.map",
+    "runtime-main.js": "/temple-project/static/js/runtime-main.d21650e5.js",
+    "runtime-main.js.map": "/temple-project/static/js/runtime-main.d21650e5.js.map",
+    "static/css/2.11829350.chunk.css": "/temple-project/static/css/2.11829350.chunk.css",
+    "static/js/2.d008d516.chunk.js": "/temple-project/static/js/2.d008d516.chunk.js",
+    "static/js/2.d008d516.chunk.js.map": "/temple-project/static/js/2.d008d516.chunk.js.map",
+    "index.html": "/temple-project/index.html",
+    "precache-manifest.c01cb758a0e7d013d6e99ebbd7396b55.js": "/temple-project/precache-manifest.c01cb758a0e7d013d6e99ebbd7396b55.js",
+    "service-worker.js": "/temple-project/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/temple-project/static/css/2.11829350.chunk.css.map",
+    "static/css/main.38f6fadd.chunk.css.map": "/temple-project/static/css/main.38f6fadd.chunk.css.map",
+    "static/js/2.d008d516.chunk.js.LICENSE.txt": "/temple-project/static/js/2.d008d516.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/temple-project/static/media/buddhaLight3.c2266fbd.jpg",
+    "static/media/IMG_0412.JPG": "/temple-project/static/media/IMG_0412.9aac7437.JPG",
+    "static/media/IMG_0429.JPG": "/temple-project/static/media/IMG_0429.fd93aa1c.JPG",
+    "static/media/IMG_0466.JPG": "/temple-project/static/media/IMG_0466.98e1f135.JPG",
+    "static/media/IMG_0518.JPG": "/temple-project/static/media/IMG_0518.24c2706a.JPG",
+    "static/media/IMG_0696.JPG": "/temple-project/static/media/IMG_0696.42b56e06.JPG",
+    "static/media/TMH.jpg": "/temple-project/static/media/TMH.65b111bc.jpg",
+    "static/media/minhhieu.png": "/temple-project/static/media/minhhieu.2c4615fc.png",
+    "static/media/sydney3.jpg": "/temple-project/static/media/sydney3.b18e101a.jpg",
+    "static/media/tang ni 11.JPG": "/temple-project/static/media/tang ni 11.4a857284.JPG",
+    "static/media/tang ni 6.JPG": "/temple-project/static/media/tang ni 6.de05c9a5.JPG",
+    "static/media/tang ni 8.JPG": "/temple-project/static/media/tang ni 8.6eb44928.JPG",
+    "static/media/zenrocks.jpg": "/temple-project/static/media/zenrocks.f0e48746.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d21650e5.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.d008d516.chunk.js",
+    "static/css/main.38f6fadd.chunk.css",
+    "static/js/main.531150ca.chunk.js"
+  ]
+}
