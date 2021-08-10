@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import { Button } from 'react-bootstrap';
 
 
 function photos() {
@@ -42,6 +43,8 @@ function photos() {
                 </div> */}
             </div>
         </div>
+
+
         </>
     )
     }

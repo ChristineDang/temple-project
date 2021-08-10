@@ -20,7 +20,7 @@ function App() {
       <div>
       {/* <Nav /> */}
         <Switch>
-          <Route exact path="/home" component={home} />
+          <Route exact path="/" component={home} />
           <Route exact path="/bio" component={bio} />
           <Route exact path="/contact" component={contact} />
           <Route exact path="/events" component={events} />

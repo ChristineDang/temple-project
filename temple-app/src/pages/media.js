@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 // import ReactDom from 'react-dom';
 
 
@@ -14,7 +15,7 @@ function media(){
                 <p id="galleryText">A collection of audio and video recordings from HT Thich Minh Hieu</p>
             </div>
 
-        </div>
+        {/* </div> */}
         <br></br>
 
         <div className="row">
@@ -33,6 +34,10 @@ function media(){
             </div>
         </div>
 
+        <div><br></br></div>
+        <div><br></br></div>
+        <div><br></br></div>
+        <div><br></br></div>
         <div><br></br></div>
 
             <div className="row">
@@ -111,7 +116,7 @@ function media(){
                 
             </div>
 
-
+         </div>
         </>
     )
     }
