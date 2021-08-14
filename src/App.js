@@ -20,7 +20,7 @@ function App() {
 
       <div>
       {/* <Nav /> */}
-        <Switch>
+        {/* <Switch> */}
           <Route exact path="/" component={home} />
           <Route exact path="/bio" component={bio} />
           <Route exact path="/contact" component={contact} />
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/photos" component={photos} />
           <Route exact path="/poems" component={poems} />
           {/* <Route exact path="/locations" component={locations} /> */}
-        </Switch>
+        {/* </Switch> */}
 
       </div>
     </HashRouter>
