@@ -8,6 +8,7 @@ import events from "./pages/events";
 import media from "./pages/media";
 import photos from "./pages/photos";
 import poems from "./pages/poems";
+import { HashLink } from 'react-router-hash-link';
 // import locations from "./pages/locations";
 // import Nav from "./components/nav/";
 
