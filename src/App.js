@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import './App.css';
 import home from "./pages/home";
 import bio from "./pages/bio";
@@ -14,13 +14,13 @@ import poems from "./pages/poems";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
 
 
       <div>
       {/* <Nav /> */}
         <Switch>
-          <Route exact path="/temple-project" component={home} />
+          <Route exact path="/" component={home} />
           <Route exact path="/bio" component={bio} />
           <Route exact path="/contact" component={contact} />
           <Route exact path="/events" component={events} />
@@ -31,7 +31,7 @@ function App() {
         </Switch>
 
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
