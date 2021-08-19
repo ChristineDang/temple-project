@@ -19,7 +19,6 @@ function App() {
 
 
       <div>
-      {/* <Nav /> */}
         <Switch>
           <Route exact path="/" component={home} />
           <Route path="/bio" component={bio} />
@@ -28,7 +27,6 @@ function App() {
           <Route path="/media" component={media} />
           <Route path="/photos" component={photos} />
           <Route path="/poems" component={poems} />
-          {/* <Route exact path="/locations" component={locations} /> */}
         </Switch>
 
       </div>
