@@ -8,13 +8,13 @@ This website is UI/UX focused. With a modern, bright, and simplistic style, this
 
 TECHNOLOGIES USED:
 
-React.JS
-React Bootstrap
-HTML
-CSS
-JavaScript
-JSON
-VS Code
+* React.JS
+* React Bootstrap
+* HTML
+* CSS
+* JavaScript
+* JSON
+* VS Code
 
 
 DEVELOPER:
