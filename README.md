@@ -4,6 +4,8 @@ A portfolio website for HT Thich Minh Hieu, containing photos from his travels, 
 
 Website Link: https://tranquil-anchorage-76072.herokuapp.com/
 
+This website is UI/UX focused. With a modern, bright, and simplistic style, this application was created with the intention to captivate users into exploring his portfolio.
+
 TECHNOLOGIES USED:
 
 React.JS
