@@ -121,7 +121,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 98%;
+  /* opacity: 98%; */
 }
 
 #poemTxt {
@@ -139,7 +139,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 95%;
+  /* opacity: 95%; */
 
 }
 
